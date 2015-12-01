@@ -1,0 +1,30 @@
+{
+  "name": "swagger-codegen",
+  "version": "1.0.0",
+  "description": "Generate Angular Typescript from Swagger json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chopperbp/swagger-codegen.git"
+  },
+  "keywords": [
+    "swagger",
+    "codegen",
+	"json"
+  ],
+  "author": "Zoltan Szabo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chopperbp/swagger-codegen/issues"
+  },
+  "devDependencies": {
+    "colors": "^1.1.2",
+  },
+  "dependencies": {
+    "gulp-shell": "0.5.1",
+  },
+  "homepage": "https://github.com/Chopperbp/swagger-codegen#readme"
+}
