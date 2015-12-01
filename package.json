@@ -13,7 +13,7 @@
   "keywords": [
     "swagger",
     "codegen",
-	"json"
+    "json"
   ],
   "author": "Zoltan Szabo",
   "license": "MIT",
@@ -21,10 +21,10 @@
     "url": "https://github.com/Chopperbp/swagger-codegen/issues"
   },
   "devDependencies": {
-    "colors": "^1.1.2",
+    "colors": "^1.1.2"
   },
   "dependencies": {
-    "gulp-shell": "0.5.1",
+    "gulp-shell": "^0.5.1"
   },
   "homepage": "https://github.com/Chopperbp/swagger-codegen#readme"
 }
