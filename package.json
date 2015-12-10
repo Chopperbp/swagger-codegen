@@ -1,9 +1,10 @@
 {
   "name": "swagger-codegen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate Angular Typescript from Swagger json",
-  "main": "index.js",
+  "main": "lib/swagger-codgen.js",
   "scripts": {
+    "install": "node install.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,10 +22,14 @@
     "url": "https://github.com/Chopperbp/swagger-codegen/issues"
   },
   "devDependencies": {
-    "colors": "^1.1.2"
   },
   "dependencies": {
-    "gulp-shell": "^0.5.1"
+    "kew": "^0.7.0",
+    "path":"^0.12.7",
+    "fs-extra": "^0.26.2",
+    "request":"^2.67.0",
+    "request-progress":"^0.4.0",
+    "progress":"^1.1.8"
   },
   "homepage": "https://github.com/Chopperbp/swagger-codegen#readme"
 }
